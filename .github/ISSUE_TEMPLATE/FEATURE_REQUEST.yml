@@ -20,7 +20,7 @@ body:
   validations:
     required: true
 - type: textarea
-    attributes:
+  attributes:
       label: "Checklist"
       description: "What needs to be created to complete this feature?"
       value: |
