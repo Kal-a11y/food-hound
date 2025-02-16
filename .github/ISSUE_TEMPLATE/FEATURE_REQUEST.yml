@@ -1,7 +1,7 @@
 name: Feature Request
 description: File a request for a feature or idea
 title: "[Feature]: "
-lable: "feature request"
+label: "feature request"
 projects: "food-hound-project"
 body:
 - type: markdown
