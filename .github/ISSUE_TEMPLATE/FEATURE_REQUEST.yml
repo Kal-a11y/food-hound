@@ -7,7 +7,7 @@ projects: "food-hound-project"
 body:
   - type: markdown
     attributes:
-      value: "#Acceptance criteria:"
+      value: "# Acceptance criteria:"
   - type: input
     attributes:
       label: When I ...
