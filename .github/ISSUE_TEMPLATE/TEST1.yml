@@ -1,6 +1,6 @@
 
 name: "Test issue"
-about: "Does issue work better in md"
+description: "Does issue work better in md"
 
 body:
 - type: input
