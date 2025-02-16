@@ -25,10 +25,11 @@ body:
         label: Checklist
         description: "What needs to be created to complete this feature?"
         value: |
-          - [ ] nav section
+         " - [ ] nav section
           - [ ]
 
           ...
+          "
         render: markdown
       validations:
         required: false
