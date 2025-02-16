@@ -3,8 +3,9 @@ description: File a request for a feature or idea
 title: "[Feature]: "
 lables: ["feature request"]
 projects: "food-hound-project"
-
 body:
+
+
   - type: input
     attributes:
       label: When I ...
