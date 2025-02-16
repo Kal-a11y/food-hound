@@ -1,0 +1,10 @@
+name: "Bug report"
+body:
+- type: input
+  id: name
+  attributes:
+    label: First name
+- type: input
+  id: surname
+  attributes:
+    label: Last name
