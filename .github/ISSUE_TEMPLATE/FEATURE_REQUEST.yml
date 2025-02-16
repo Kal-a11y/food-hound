@@ -21,15 +21,10 @@ body:
     required: true
 - type: markdown
   attributes:
-    label: "Checklist items"
-    description: "What needs to be created to complete this feature?"
-    value: "|
+    value: |
       - [ ] nav section
       - [ ]
-
-      "
+  render: markdown
   validations:
     required: false
-        
-      
         
