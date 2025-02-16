@@ -21,6 +21,7 @@ body:
     required: true
 - type: textarea
   attributes:
+    label: Checklist items
     value: |
       - [ ] nav section
       - [ ]
