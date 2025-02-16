@@ -9,13 +9,13 @@ body:
     value: Acceptance Criteria
 - type: input
   attributes:
-    label: When I ...
+    label: "When I ..."
     placeholder: "Open view the home page"
   validations:
     required: true
 - type: input
   attributes:
-    label: Then ...
+    label: "Then ..."
     placeholder: "I see a section for navigation, a description of the site, the logo, and a sign up button""
   validations:
     required: true
