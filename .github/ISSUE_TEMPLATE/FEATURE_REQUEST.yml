@@ -19,7 +19,7 @@ body:
     placeholder: "I see a section for navigation, a description of the site, the logo, and a sign up button"
   validations:
     required: true
-- type: markdown
+- type: textarea
   attributes:
     value: |
       - [ ] nav section
