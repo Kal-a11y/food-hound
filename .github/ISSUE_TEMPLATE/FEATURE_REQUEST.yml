@@ -4,31 +4,34 @@ title: "[Feature]: "
 lables: ["feature request"]
 projects: "food-hound-project"
 body:
-  - type: input
+- type: markdown
+  attributes:
+    value: Acceptance Criteria
+- type: input
+  attributes:
+    label: When I ...
+    placeholder: "Open view the home page"
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Then ...
+    placeholder: "I see a section for navigation, a description of the site, the logo, and a sign up button""
+  validations:
+    required: true
+- type: textarea
     attributes:
-      label: When I ...
-      placeholder: "Open view the home page"
-    validations:
-      required: true
-   - type: input
-    attributes:
-      label: Then ...
-      placeholder: "I see a section for navigation, a description of the site, the logo, and a sign up button""
-    validations:
-      required: true
-    - type: textarea
-      attributes:
-        label: Checklist
-        description: "What needs to be created to complete this feature?"
-        value: |
-         " - [ ] nav section
-          - [ ]
+      label: Checklist
+      description: "What needs to be created to complete this feature?"
+      value: |
+       " - [ ] nav section
+        - [ ]
 
-          ...
-          "
-        render: markdown
-      validations:
-        required: false
+        ...
+        "
+      render: markdown
+    validations:
+      required: false
         
       
         
