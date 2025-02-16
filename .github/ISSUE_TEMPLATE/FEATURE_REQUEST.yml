@@ -16,7 +16,7 @@ body:
 - type: input
   attributes:
     label: "Then ..."
-    placeholder: "I see a section for navigation, a description of the site, the logo, and a sign up button""
+    placeholder: "I see a section for navigation, a description of the site, the logo, and a sign up button"
   validations:
     required: true
 - type: textarea
