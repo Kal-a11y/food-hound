@@ -19,16 +19,15 @@ body:
     placeholder: "I see a section for navigation, a description of the site, the logo, and a sign up button"
   validations:
     required: true
-- type: textarea
+- type: markdown
   attributes:
-      label: "Checklist"
+      label: "Checklist items"
       description: "What needs to be created to complete this feature?"
       value: |
-       " - [ ] nav section
+        - [ ] nav section
         - [ ]
 
         ...
-        "
       render: markdown
     validations:
       required: false
