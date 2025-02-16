@@ -24,7 +24,6 @@ body:
     value: |
       - [ ] nav section
       - [ ]
-  render: markdown
   validations:
     required: false
         
