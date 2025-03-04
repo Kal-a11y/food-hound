@@ -1,0 +1,6 @@
+//This is used to make sure that the JSX Runtime is automatic instead of manually having to import React from 'react' in every file that uses JSX.
+{
+    "compilerOptions": {
+      "jsx": "react-jsx"
+    }
+}
