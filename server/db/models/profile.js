@@ -61,7 +61,7 @@ Profile.init({
 
     },
     sequelize,
-    updatedAt: false,
+    timestamps: false,
     freezeTableName: true,
     modelName: 'profile'
 });
